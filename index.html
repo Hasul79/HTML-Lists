@@ -7,29 +7,44 @@
     <title>Lists</title>
 </head>
 <body>
-    <!-- HTML unordered list
-         list-style-type -->
-    <ul>
-        <li>Armen</li>
-        <li>Adam</li>
-        <li>Anahit</li>
+    <!--LIST
+           HTML unordered list
+                 list-style-type -->
+
+
+     <!--unordered list - չհամարակալված լիստ -->
+     <ul>
+        <p>Ա տառով անուններ</p>
+        <li>Արմեն</li>
+        <li>Ադամ</li>
+        <li>Անահիտ</li>
     </ul>
-    <ul style="list-style-type: square;">
-        <li>Gor</li>
-        <li>Garik</li>
-        <li>Gohar</li>
+
+
+    
+    <ul list-style-type="square">
+    <!-- <ul type="square"> -->
+        <p>Գ տառով անուններ</p>
+        <li>Գոռ</li>
+        <li>Գարիկ</li>
+        <li>Գոհար</li>
     </ul>
-    <ul style="list-style-type: circle;">
+
+    <ul type="circle">
+        <p>Մ տառով անուններ</p>
         <li>Mher</li>
         <li>Martin</li>
         <li>Meri</li>
     </ul>
-    <ul style="list-style-type: disc;">
+
+    <ul style="list-style-type: disc">
+        <p><u>Ա տառով անուններ</u></p>
         <li>Ani</li>
         <li>Alina</li>
         <li>Arsen</li>
     </ul>
-    <ul style="list-style-type: none;">
+    <ul type="none">
+        <p>Վ տառով անուններ</p>
         <li>Vahram</li>
         <li>Vrej</li>
         <li>Vard</li>
@@ -76,7 +91,180 @@
         <li>077123456</li>
         <li>044123456</li>
     </ul>
+
+    <hr>
+
+    <p>List inside list: (ցանկ ներսում ցուցակ)</p>
+
+<ul>
+  <li>Coffee</li>
+  <li>Tea
+    <ul>
+      <li>Black tea</li>
+      <li>Black tea</li>
+        <ul>
+            <li>Late</li>
+             <li>Late</li>
+        </ul>
+      <li>Green tea</li>
+      <li>Green tea</li>
+    </ul>
+  </li>
+  <li>Milk</li>
+</ul>
     
+<hr>
+     <!--ordered list - համարակալված լիստ -->
+     <ol>
+        <p>Դպրոցական առարկաներ</p>
+        <li>Հայոց լեզու</li>
+        <li>Հանրահաշիվ</li>
+        <li>Ֆիզիկա</li>
+        <li>Քիմիա</li>
+     </ol>
+
+     <ol type="a">
+        <p>Սուրճի տեսականի</p>
+        <li>Էքսպրեսո</li>
+        <li>Կապուչինո</li>
+        <li>Մոկո</li>
+        <li>Լատե</li>
+     </ol>
+     <ol type="A">
+        <p>Սոց․ ցանցեր</p>
+        <li>Facebook</li>
+        <li>Instagram</li>
+        <li>Telegram</li>
+        <li>Linkedin</li>
+     </ol>
+
+     <ol type="I">
+        <p>Սուրճի տեսակներ</p>
+        <li>Դառը</li>
+        <li>Սառը</li>
+        <li>Տաք</li>
+        <li>Քաղցր</li>
+     </ol>
+
+     <hr>
+       <!-- համարակալման տեսակ -->
+     <ol>
+        <p>Դպրոցական առարկաներ</p>
+        <li>Հայոց լեզու</li>
+        <li>Հանրահաշիվ</li>
+        <li>Ֆիզիկա</li>
+        <li>Քիմիա</li>
+     </ol>
+
+     <ol start="0">  <!--կսկսվի 0-ից-->
+        <p>Դպրոցական առարկաներ</p>
+        <li>Հայոց լեզու</li>
+        <li>Հանրահաշիվ</li>
+        <li>Ֆիզիկա</li>
+        <li>Քիմիա</li>
+     </ol>
+     <ol start="-4">  <!--կսկսվի 0-ից-->
+        <p>Դպրոցական առարկաներ</p>
+        <li>Հայոց լեզու</li>
+        <li>Հանրահաշիվ</li>
+        <li>Ֆիզիկա</li>
+        <li>Քիմիա</li>
+     </ol>
+    
+     <hr>
+
+     <p>List inside list:</p>
+
+<ol>
+  <li>Coffee</li>
+  <li>Tea
+    <ol>
+      <li>Black tea</li>
+      <li>Green tea</li>
+    </ol>
+  </li>
+  <li>Milk</li>
+</ol>
+
+<hr>
+
+<dl>                      <!--description list-նկարագրության ցուցակ -->
+    <dt>Հյութ</dt>         <!-- Սահմանում է տերմին-->
+       <dd>Նարնջի</dd>     <!-- Նկարագրում է տերմինը-->
+       <dd>Խնձորի</dd>
+
+    <dt>Թեյ</dt>
+    <dd>Կանաչ</dd>
+    <dd>Ծաղիկներով</dd>
+</dl>
+
+
+<hr>
+ <!-- LINK -->
+<p><a href="https://www.w3schools.com/">w3schools </a></p>
+
+
+<ul>
+    <li><a href="https://www.google.com">Google</a></li>
+    <li><a href="https://www.instagram.com/?ysclid=lhgl1ofxn4373476037">Instagram</a></li>
+    <li><a href="https://www.facebook.com">Facebook</a></li>
+    <li><a href="https://www.youtube.com">Youtube</a></li>   
+  </ul>
+
+<hr>
+
+<p>Սխմել և ներբեռնել:<p>
+    <a href="/1-1.png" download >
+      <img src="/1-1.png" alt="google" width="154" height="142">
+    </a>
+ 
+  <hr>
+
+
+  <!-- SELECT - ՆՇԵԼ -->
+
+  <p>Ընտրել ամիսը</p>
+
+  <select >
+    <option></option>
+    <option>Հունվար</option>
+    <option>Փետրվար</option>
+    <option>Մարտ</option>
+    <option>Ապրիլ</option>
+  </select>
+  
+
+
+ <hr>
+
+ <label for="cars">Ընտրել մեքենան:</label>
+
+<select name="cars">
+  <option>Volvo</option>
+  <option>Saab</option>
+  <option>Mercedes</option>
+  <option>Audi</option>
+</select>
+
+<hr>
+
+<select>
+    <optgroup label="Գլուխ 1">
+      <option>Մաթեմատիկա</option>
+    </optgroup>
+
+    <optgroup label="Գլուխ 2">
+      <option>Հանրահաշիվ </option>
+      <option>Երկրաչափություն</option>
+    </optgroup>
+
+    <optgroup label="Գլուխ 3" disabled>  <!--ոչ ակտիվ , ոչ աշխատող-->
+      <option>Ֆիզիկա</option>
+      <option>Քիմիա</option>
+      <option>Կենսաբանություն</option>
+    </optgroup>
+  </select>
+
 
 </body>
 </html>
